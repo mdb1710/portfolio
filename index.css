@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    display: inline-block;
 }
 
 html {
@@ -19,6 +20,16 @@ body {
 
 }
 
+.container{
+    width: 50px;
+    height: 50px;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
 .project-data{
     border: 5px solid #610F08;
     text-align: center;
@@ -29,18 +40,22 @@ body {
 .about-me{
     border: 5px solid #610F08;
     text-align: center;
-    margin: auto;
+    margin: 10px 20px 10px 20px;
     border-radius: 15px;
     list-style: inside;
-    float: left;
+    
+    padding: 30px 60px 30px 60px;
+    
 }
 
 .extra {
-    border: 5px solid #610F08;
+    /* border: 5px solid #610F08; */
     text-align: center;
-    list-style: inside;
-    margin: auto;
+    margin: 10px 20px 10px 20px;
     border-radius: 15px;
+    list-style: inside;
+    
+    padding: 30px 60px 30px 60px;
 }
 
 h1 {
@@ -58,8 +73,33 @@ h3 {
 
 p{
    font-size: 16px;
+   display: flex;
+   justify-content: left;
+}
+
+ul, ol{
+    margin-top: 5px;
 }
 
 ul li{
     font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ol li{
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+footer {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+span{
+    padding-left: 25px;
+    padding-right: 25px;
 }
