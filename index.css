@@ -24,12 +24,18 @@ img{
     width: 50%;
     height: 50%;
 }
+.header-photo{
+    border: 5px solid #610F08;
+    border-radius: 15px;
+}
 
 .project-data{
     border: 5px solid #610F08;
     text-align: center;
     margin: auto;
     border-radius: 15px;
+    margin: 10px 20px 10px 20px;
+    padding: 30px 60px 30px 60px;
 }
 
 .about-me{
@@ -54,8 +60,9 @@ img{
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 75px;
     text-align: center;
+    
 }
 
 h2 {
