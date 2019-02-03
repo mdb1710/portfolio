@@ -90,6 +90,8 @@ p{
 
 ul, ol{
     margin-top: 5px;
+    
+    
 }
 
 ul li{
@@ -117,7 +119,12 @@ span{
 
 @media only screen and (min-width: 600px) {
     h1{
-        font-size: 50px;
+        font-size: 30px;
+    }
+
+    img{
+        width: 20%;
+        height: 20%;
     }
 
 }
@@ -125,6 +132,6 @@ span{
 @media only screen and (min-width: 768px) {
 
     h1{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
