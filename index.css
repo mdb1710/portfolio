@@ -3,14 +3,16 @@
 }
 
 html {
-    background-color: #DC4729;
+    background-color: #614F40;
 }
+
 
 body {
  font-family: Raleway;
- 
+ text-align: center;
  line-height: 24px;
- color: red;
+ color: #DC4729;
+ 
 }
 
 .intro {
@@ -18,11 +20,25 @@ body {
 }
 
 .project-data{
-
+    border: 5px solid #610F08;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
 }
 
 .about-me{
+    border: 5px solid #610F08;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.extra {
+    border: 5px solid #610F08;
+    text-align: center;
     
+    margin: auto;
+    border-radius: 15px;
 }
 
 h1 {
